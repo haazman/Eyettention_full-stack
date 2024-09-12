@@ -19,9 +19,11 @@ nest_asyncio.apply()
 app = Flask(__name__)
 CORS(app) 
 
-USERNAME = 'vrgshk_'
-EMAIL = 'haidarnoelan@yahoo.co.id'
-PASSWORD = 'Sosisterbang12'
+
+#twitter credentials
+USERNAME = ''
+EMAIL = ''
+PASSWORD = ''
 
 
 client = Client('en-ID')
